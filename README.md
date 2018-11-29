@@ -1,5 +1,5 @@
 # vue-router-dome
-vue router灵活运用 dome
+vue router灵活运用 dome 按需加载
 
 实现router
 
