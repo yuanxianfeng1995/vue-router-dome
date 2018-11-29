@@ -2,14 +2,19 @@
 vue router灵活运用 dome
 
 实现router
+
 import Vue from 'vue'
+
 import Router from 'vue-router'
+
 import views from 'views'
 
 Vue.use(Router)
 
 export default new Router({
+
   routes: views
+  
 })
 
 view是目录 根据vue.config.js配置中的
