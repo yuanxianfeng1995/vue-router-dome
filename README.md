@@ -13,15 +13,20 @@ export default new Router({
 })
 
 view是目录 根据vue.config.js配置中的
+
 configureWebpack: config => {
+
         Object.assign(config, { 
+        
             resolve: {
                 modules: [  // 优先读取src目录
                     resolve('src'),
                     resolve('node_modules')
                 ]
             }
+            
         })
+    
     }
     
     读取目录结构下的每个index.js 生成router routes
