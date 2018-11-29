@@ -1,5 +1,15 @@
 # admin
 
+通过配置vue.config.js
+ {
+      modules: [
+        resolve('src'),
+        resolve('node_modules')
+  ],
+优先搜索src 目录 实现router 文件中
+import views from 'views'
+
+
 ## Project setup
 ```
 yarn install
@@ -24,6 +34,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
