@@ -17,7 +17,7 @@ export default new Router({
   
 })
 
-view是目录 根据vue.config.js配置中的
+views是目录 根据vue.config.js配置中的
 
 configureWebpack: config => {
 
