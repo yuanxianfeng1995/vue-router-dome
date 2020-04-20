@@ -13,7 +13,7 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 40px;
+  padding: 50px;
 }
 
 #nav a {
